@@ -8,44 +8,80 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table border="0" cellspacing="0" cellpadding="0" width="600" bgcolor="#07553b1a" style="width: 600px; background-color: #07553b1a; border-radius: 20px;">
+    <!--
+        NOTE: border-radius on the outer table is not supported in Outlook.
+        All other fixes applied for cross-client compatibility.
+    -->
+    <table border="0" cellspacing="0" cellpadding="0" width="600" bgcolor="#eaf2ee"
+        style="width: 600px; background-color: #e6eeeb; border-radius: 20px;">
         <tr>
-            <td width="174">
-                <img src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/logo-mark.png" alt="logo mark" width="174" style="display: block; width: 174px;" />
+            <!-- Logo Mark -->
+            <td width="174" valign="top">
+                <img src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/logo-mark.png"
+                    alt="logo mark" width="174" height="auto"
+                    style="display: block; width: 174px;" />
             </td>
-            <td style="vertical-align: middle; padding-left: 16px;">
-                <p style="color: #302F2F; font-size: 15pt; font-family: 'DM Sans', sans-serif; line-height: 1; margin: 0; padding-bottom: 6px;">
-                    <strong style="font-weight: 500; margin-right: 10px;">Client Services</strong>
+
+            <!-- Contact Info -->
+            <td valign="middle" style="padding-left: 16px;">
+
+                <p style="color: #302F2F; font-size: 15pt;
+                    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+                    line-height: 1; margin: 0; padding-bottom: 6px;">
+                    <strong style="font-weight: 500;">Client Services</strong>
                 </p>
-                <p style="color: #302F2F; font-size: 15pt; font-family: 'DM Sans', sans-serif; line-height: 1; margin: 0; padding-bottom: 24px;">
-                    <strong style="font-weight: 900; margin-right: 10px;">Gentlemen's Tee Golf Ltd.</strong>
+
+                <p style="color: #302F2F; font-size: 15pt;
+                    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+                    line-height: 1; margin: 0; padding-bottom: 24px;">
+                    <strong style="font-weight: 900;">Gentlemen's Tee Golf Ltd.</strong>
                 </p>
+
                 <table border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 15px;">
+                    <!-- Email Row -->
                     <tr>
-                        <td style="padding-bottom: 12px;">
-                            <img src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/mail.png" alt="mail" width="14" style="display: block; width: 14px; padding-right: 6px;" />
+                        <td valign="middle" style="padding-right: 6px; padding-bottom: 12px;">
+                            <img src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/mail.png"
+                                alt="mail" width="14" height="14"
+                                style="display: block; width: 14px; height: 14px;" />
                         </td>
-                        <td style="font-size: 11pt; font-weight: 400; font-family: 'DM Sans', sans-serif; line-height: 1; padding-bottom: 12px;">
-                            <a href="mailto:info@gentlemenstee.com" target="_blank" title="email" style="color: #302F2F; text-decoration: none !important;">
-                                <span style="color: #302F2F; text-decoration: none !important;">info@gentlemenstee.com</span>
+                        <td valign="middle"
+                            style="font-size: 11pt; font-weight: 400;
+                                font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+                                line-height: 1; padding-bottom: 12px;">
+                            <a href="mailto:info@gentlemenstee.com" target="_blank" title="email"
+                                style="color: #302F2F; text-decoration: none;">
+                                info@gentlemenstee.com
                             </a>
                         </td>
                     </tr>
+                    <!-- Website Row -->
                     <tr>
-                        <td>
-                            <img src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/web.png" alt="webs" width="14" style="display: block; width: 14px; padding-right: 6px; padding-top: 3px;" />
+                        <td valign="middle" style="padding-right: 6px;">
+                            <img src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/web.png"
+                                alt="web" width="14" height="14"
+                                style="display: block; width: 14px; height: 14px;" />
                         </td>
-                        <td style="font-size: 11pt; font-weight: 400; font-family: 'DM Sans', sans-serif; line-height: 1;">
-                            <a href="https://gentlemenstee.com/" target="_blank" title="website" style="color: #302F2F; text-decoration: none !important;">
-                                <span style="color: #302F2F; text-decoration: none !important;">gentlemenstee.com</span>
+                        <td valign="middle"
+                            style="font-size: 11pt; font-weight: 400;
+                                font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+                                line-height: 1;">
+                            <a href="https://gentlemenstee.com/" target="_blank" title="website"
+                                style="color: #302F2F; text-decoration: none;">
+                                gentlemenstee.com
                             </a>
                         </td>
                     </tr>
                 </table>
+
             </td>
-            <td width="119" style="vertical-align: bottom; padding-bottom: 22px;">
+
+            <!-- Brand Logo -->
+            <td width="119" valign="bottom" style="padding-bottom: 22px;">
                 <a href="https://gentlemenstee.com/" target="_blank">
-                    <img src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/logo.png" alt="logo" width="100" style="display: block; width: 100px;" />
+                    <img src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/logo.png"
+                        alt="logo" width="100" height="auto"
+                        style="display: block; width: 100px;" />
                 </a>
             </td>
         </tr>
