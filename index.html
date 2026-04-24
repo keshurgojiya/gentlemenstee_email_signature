@@ -10,137 +10,157 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <!--
-        NOTE: border-radius on the outer table is not supported in Outlook.
-        All other fixes applied for cross-client compatibility.
-    -->
+  <body style="margin: 0; padding: 0; margin: 8px">
+    <!-- Outer wrapper td handles padding instead of table (Outlook fix) -->
     <table
       border="0"
       cellspacing="0"
       cellpadding="0"
       width="420"
-      bgcolor="#eaf2ee"
-      style="
-        width: 420px;
-        background-color: #e6eeeb;
-        border-radius: 20px;
-        padding: 20px 20px 24px 20px;
-      "
+      bgcolor="#e6eeeb"
+      style="width: 420px; background-color: #e6eeeb; border-radius: 20px"
     >
       <tr>
-        <!-- Logo Mark -->
-        <td width="120" valign="top" align="center" style="padding-right: 16px">
-          <img
-            src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/logo-mark1.png"
-            alt="logo mark"
-            width="100"
-            height="auto"
-            style="display: block; width: 52px; padding-top: 5px"
-          />
-          <a href="https://gentlemenstee.com/" target="_blank">
-            <img
-              src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/logo.png"
-              alt="logo"
-              width="100"
-              height="auto"
-              style="display: block; width: 100px; padding-top: 10px"
-            />
-          </a>
-        </td>
-
-        <!-- Contact Info -->
-        <td valign="top">
-          <p
-            style="
-              color: #302f2f;
-              font-size: 14pt;
-              font-family: &quot;DM Sans&quot;, Arial, Helvetica, sans-serif;
-              margin: 0;
-              padding-bottom: 6px;
-            "
-          >
-            <strong style="font-weight: 500">Client Services</strong>
-          </p>
-
-          <p
-            style="
-              color: #302f2f;
-              font-size: 14pt;
-              font-family: &quot;DM Sans&quot;, Arial, Helvetica, sans-serif;
-              line-height: 1;
-              margin: 0;
-              padding-bottom: 15px;
-            "
-          >
-            <strong style="font-weight: 900">Gentlemen's Tee</strong>
-          </p>
-
-          <table border="0" cellspacing="0" cellpadding="0">
-            <!-- Email Row -->
+        <td style="padding: 20px 20px 24px 20px">
+          <table border="0" cellspacing="0" cellpadding="0" width="100%">
             <tr>
+              <!-- Left: Logo Mark + Brand Logo -->
               <td
-                valign="middle"
-                style="padding-right: 6px; padding-bottom: 12px"
+                width="120"
+                valign="top"
+                align="center"
+                style="padding-right: 16px; width: 120px; padding-top: 4px"
               >
                 <img
-                  src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/email2.png"
-                  alt="mail"
-                  width="14"
-                  height="14"
-                  style="display: block; width: 14px; height: 14px"
+                  src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/logo-mark1.png"
+                  alt="logo mark"
+                  width="52"
+                  height="52"
+                  style="display: block; width: 52px; height: auto"
                 />
-              </td>
-              <td
-                valign="middle"
-                style="
-                  font-size: 11pt;
-                  font-weight: 400;
-                  font-family:
-                    &quot;DM Sans&quot;, Arial, Helvetica, sans-serif;
-                  line-height: 1;
-                  padding-bottom: 12px;
-                "
-              >
-                <a
-                  href="mailto:info@gentlemenstee.com"
-                  target="_blank"
-                  title="email"
-                  style="color: #302f2f; text-decoration: none"
-                >
-                  info@gentlemenstee.com
-                </a>
-              </td>
-            </tr>
-            <!-- Website Row -->
-            <tr>
-              <td valign="middle" style="padding-right: 6px; padding-top: 2px">
-                <img
-                  src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/website2.png"
-                  alt="web"
-                  width="14"
-                  height="14"
-                  style="display: block; width: 14px; height: 14px"
-                />
-              </td>
-              <td
-                valign="middle"
-                style="
-                  font-size: 11pt;
-                  font-weight: 400;
-                  font-family:
-                    &quot;DM Sans&quot;, Arial, Helvetica, sans-serif;
-                  line-height: 1;
-                "
-              >
+
+                <div style="height: 10px; line-height: 10px; font-size: 10px">
+                  &nbsp;
+                </div>
+
                 <a
                   href="https://gentlemenstee.com/"
                   target="_blank"
-                  title="website"
-                  style="color: #302f2f; text-decoration: none"
+                  style="text-decoration: none"
                 >
-                  gentlemenstee.com
+                  <img
+                    src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/logo.png"
+                    alt="logo"
+                    width="100"
+                    height="auto"
+                    style="display: block; width: 100px"
+                  />
                 </a>
+              </td>
+
+              <!-- Right: Contact Info -->
+              <td valign="top">
+                <p
+                  style="
+                    color: #302f2f;
+                    font-size: 14pt;
+                    font-family:
+                      &quot;DM Sans&quot;, Arial, Helvetica, sans-serif;
+                    font-weight: 500;
+                    margin: 0;
+                    padding: 0 0 7px 0;
+                    line-height: 1.2;
+                  "
+                >
+                  Client Services
+                </p>
+
+                <p
+                  style="
+                    color: #302f2f;
+                    font-size: 14pt;
+                    font-family:
+                      &quot;DM Sans&quot;, Arial, Helvetica, sans-serif;
+                    font-weight: 900;
+                    margin: 0;
+                    padding: 0 0 17px 0;
+                    line-height: 1;
+                  "
+                >
+                  Gentlemen's Tee
+                </p>
+
+                <!-- Icons + Links Table -->
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <!-- Email Row -->
+                  <tr>
+                    <td
+                      valign="middle"
+                      width="20"
+                      style="width: 20px; padding-bottom: 12px"
+                    >
+                      <img
+                        src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/email2.png"
+                        alt=""
+                        width="14"
+                        height="14"
+                        style="display: block; width: 14px; height: 14px"
+                      />
+                    </td>
+                    <td
+                      valign="middle"
+                      style="
+                        padding-bottom: 12px;
+                        font-size: 11pt;
+                        font-family:
+                          &quot;DM Sans&quot;, Arial, Helvetica, sans-serif;
+                        font-weight: 400;
+                        line-height: 1;
+                        color: #302f2f;
+                      "
+                    >
+                      <a
+                        href="mailto:info@gentlemenstee.com"
+                        target="_blank"
+                        style="color: #302f2f; text-decoration: none"
+                      >
+                        info@gentlemenstee.com
+                      </a>
+                    </td>
+                  </tr>
+
+                  <!-- Website Row -->
+                  <tr>
+                    <td valign="middle" width="20" style="width: 20px">
+                      <img
+                        src="https://keshurgojiya.github.io/gentlemenstee_email_signature/images/website2.png"
+                        alt=""
+                        width="14"
+                        height="14"
+                        style="display: block; width: 14px; height: 14px"
+                      />
+                    </td>
+                    <td
+                      valign="middle"
+                      style="
+                        font-size: 11pt;
+                        font-family:
+                          &quot;DM Sans&quot;, Arial, Helvetica, sans-serif;
+                        font-weight: 400;
+                        line-height: 1;
+                        color: #302f2f;
+                      "
+                    >
+                      <a
+                        href="https://gentlemenstee.com/"
+                        target="_blank"
+                        style="color: #302f2f; text-decoration: none"
+                      >
+                        gentlemenstee.com
+                      </a>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
